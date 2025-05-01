@@ -1,11 +1,10 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:interview_task/core/theme/app_color.dart';
 import 'package:interview_task/core/utilities/assets_data.dart';
-import 'package:interview_task/features/home/views/home_view.dart';
-import 'package:meta/meta.dart';
+import 'package:interview_task/core/utilities/font_manager.dart';
+import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
 
 part 'home_layout_state.dart';
@@ -25,7 +24,15 @@ class HomeLayoutCubit extends Cubit<HomeLayoutState> {
               BlendMode.srcIn,
             ),
           ),
-          title: const Text('Home'),
+          title: Text(
+            'Home',
+            style: TextStyle(
+              fontSize: 14.sp,
+              fontWeight: FontManager.mediumFontWeight,
+              color: AppColors.primary,
+              fontFamily: FontManager.poppinsFontFamily,
+            ),
+          ),
         ),
         SalomonBottomBarItem(
           icon: SvgPicture.asset(
@@ -35,7 +42,15 @@ class HomeLayoutCubit extends Cubit<HomeLayoutState> {
               BlendMode.srcIn,
             ),
           ),
-          title: const Text('Search'),
+          title: Text(
+            'Search',
+            style: TextStyle(
+              fontSize: 14.sp,
+              fontWeight: FontManager.mediumFontWeight,
+              color: AppColors.primary,
+              fontFamily: FontManager.poppinsFontFamily,
+            ),
+          ),
         ),
         SalomonBottomBarItem(
           icon: SvgPicture.asset(
@@ -45,7 +60,15 @@ class HomeLayoutCubit extends Cubit<HomeLayoutState> {
               BlendMode.srcIn,
             ),
           ),
-          title: const Text('Graph'),
+          title: Text(
+            'Graph',
+            style: TextStyle(
+              fontSize: 14.sp,
+              fontWeight: FontManager.mediumFontWeight,
+              color: AppColors.primary,
+              fontFamily: FontManager.poppinsFontFamily,
+            ),
+          ),
         ),
         SalomonBottomBarItem(
           icon: SvgPicture.asset(
@@ -55,7 +78,15 @@ class HomeLayoutCubit extends Cubit<HomeLayoutState> {
               BlendMode.srcIn,
             ),
           ),
-          title: const Text('Clock'),
+          title: Text(
+            'Clock',
+            style: TextStyle(
+              fontSize: 14.sp,
+              fontWeight: FontManager.mediumFontWeight,
+              color: AppColors.primary,
+              fontFamily: FontManager.poppinsFontFamily,
+            ),
+          ),
         ),
         SalomonBottomBarItem(
           icon: SvgPicture.asset(
@@ -65,7 +96,15 @@ class HomeLayoutCubit extends Cubit<HomeLayoutState> {
               BlendMode.srcIn,
             ),
           ),
-          title: const Text('Profile'),
+          title: Text(
+            'Profile',
+            style: TextStyle(
+              fontSize: 14.sp,
+              fontWeight: FontManager.mediumFontWeight,
+              color: AppColors.primary,
+              fontFamily: FontManager.poppinsFontFamily,
+            ),
+          ),
         ),
       ];
 

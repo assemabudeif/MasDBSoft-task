@@ -11,7 +11,7 @@ import '/core/theme/app_color.dart';
 extension StringCapitalizeExtension on String {
   /// Capitalizes the first letter of the string if it is not empty.
   String capitalize() =>
-      (this.isEmpty) ? this : "${this[0].toUpperCase()}${substring(1)}";
+      (isEmpty) ? this : "${this[0].toUpperCase()}${substring(1)}";
 }
 
 /// Extension on BuildContext to provide navigation and UI utility methods.
