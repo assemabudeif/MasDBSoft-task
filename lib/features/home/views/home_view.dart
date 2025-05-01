@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:interview_task/core/constants/app_constance.dart';
-import 'package:interview_task/core/services/service_locator.dart';
-import 'package:interview_task/core/theme/app_color.dart';
-import 'package:interview_task/core/utilities/extensions.dart';
-import 'package:interview_task/core/utilities/font_manager.dart';
-import 'package:interview_task/features/home/cubit/home_cubit.dart';
-import 'package:interview_task/features/home/views/widgets/quick_action_item_widget.dart';
-import 'package:interview_task/features/home/views/widgets/summary_item_widget.dart';
+import '/core/constants/app_constance.dart';
+import '/core/services/service_locator.dart';
+import '/core/theme/app_color.dart';
+import '/core/utilities/extensions.dart';
+import '/core/utilities/font_manager.dart';
+import '/features/home/cubit/home_cubit.dart';
+import '/features/home/views/widgets/quick_action_item_widget.dart';
+import '/features/home/views/widgets/summary_item_widget.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
 import 'widgets/activity_item_widget.dart';

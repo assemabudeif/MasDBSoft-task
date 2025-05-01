@@ -1,9 +1,9 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:interview_task/core/theme/app_color.dart';
-import 'package:interview_task/core/utilities/assets_data.dart';
-import 'package:interview_task/core/utilities/font_manager.dart';
+import '/core/theme/app_color.dart';
+import '/core/utilities/assets_data.dart';
+import '/core/utilities/font_manager.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
 

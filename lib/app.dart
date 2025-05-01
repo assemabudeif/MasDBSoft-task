@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:interview_task/core/constants/app_constance.dart';
-import 'package:interview_task/core/theme/theme_data/light_them.dart';
+import '/core/constants/app_constance.dart';
+import '/core/theme/theme_data/light_them.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
 import 'core/utilities/app_routes.dart';

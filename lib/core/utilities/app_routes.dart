@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:interview_task/features/home_layout/views/home_layout_view.dart';
+import '/features/home_layout/views/home_layout_view.dart';
 
 class AppRoutes {
   /// Base routes

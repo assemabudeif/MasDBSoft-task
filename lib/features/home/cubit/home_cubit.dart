@@ -1,9 +1,9 @@
 import 'package:bloc/bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:interview_task/core/theme/app_color.dart';
-import 'package:interview_task/features/home/models/activity_item_model.dart';
-import 'package:interview_task/features/home/models/quick_action_model.dart';
-import 'package:interview_task/features/home/models/summary_item_model.dart';
+import '/core/theme/app_color.dart';
+import '/features/home/models/activity_item_model.dart';
+import '/features/home/models/quick_action_model.dart';
+import '/features/home/models/summary_item_model.dart';
 import 'package:meta/meta.dart';
 
 part 'home_state.dart';
